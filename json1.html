@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-compatible" content="IE=edge"./>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+    <title> cities </title>    
+</head>
+<body>
+<div class="slider-controls">
+    <span id="addition" class="addition">اضافه دوله </span>
+    <span id="ascending" class="ascending">ترتيب تصاعدي</span>
+    <span id="letters" class="letters">ترتيب حسب الحروف</span>
+    <span id="desecending" class="desecending">ترتيب تنازلي</span>
+    
+    </div>
+    <div id = "edit" class="edit" >
+        <form class="formEdit" id="formEdit" >
+        الدوله <input  class="citieinputEdit" id = "citieinputEdit" type="text" name="citieinputEdit">
+        عدد السكان <input type="text" class="peplesinputEdit" id = "peplesinputEdit" name="peplesinputEdit">
+         <span id = "editspan" class="editspan" > تعديل   </span> 
+    </form>
+        
+    </div>
+    <div id = "add1" class="add1" >
+        <form class="form" id="form" >
+        الدوله <input  class="citieinput" id = "citieinput" type="text" name="citieinput">
+        عدد السكان <input type="text" class="peplesinput" id = "peplesinput" name="peplesinput">
+         <span id = "addspan" class="addspan" > حفظ  </span> 
+    </form>
+        
+    </div>
+
+<div id= "show"></div>
+<table id="table" >
+<tr>
+    <td  >المدن</td>
+    <td >عدد السكان</td>
+    <td>
+    <button > تعديل   </button> 
+    <button onClick="delet()"> حدف  </button> 
+    </td>
+</tr>
+    <tr >
+    <td ></td>
+    <td ></td>
+</tr>
+</table>
+<div class="slider-controls">
+<span id="indicatoers" class="indicatoers"></span>
+</div>
+<div id= "pagintion">
+<span id="indicatoers" class="indicatoers">  
+<ul >
+</ul>
+</div>
+<script src="jquery-1.12.4.min.js" ></script>
+<script src="jsonjs.js" ></script>
+</body>
+</html>
